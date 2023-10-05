@@ -1,0 +1,71 @@
+.air__form--box {
+    display: block;
+    width: 23rem;
+    margin: auto;
+    padding: 1rem;
+}
+
+.air__input--box {
+    width: 70%;
+    border: 0ch;
+    border-bottom: 3px solid;
+    padding: 10px 25px;
+    margin: 20px 15% 20px 15%;
+}
+
+.air__input {
+    background: transparent;
+    border: 0px;
+    font-size: 26px;
+    width: calc(100% - 40px);
+}
+
+.air__input input:focus-visible {
+    outline: white;
+}
+
+.air__result--box {
+    margin: 0px;
+}
+
+.air__result--box h3 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.air__result {
+    width: 40%;
+    vertical-align: top;
+    display: inline-block;
+    margin: 8px 5%;
+    padding: auto;
+    border: 0px solid;
+}
+
+.air__range {
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.air__range h3 {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.air__range div {
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.shapeShifter {
+    size: 42;
+    position: absolute;
+    bottom: 80%;
+    left: 70%;
+}
+
+.shapeShifter svg {
+    height: 1.4em;
+    width: 1.4em;
+}
