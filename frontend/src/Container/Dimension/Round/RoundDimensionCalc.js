@@ -28,6 +28,7 @@ const RoundDimensionCalc = () => {
                 <text>Průtok</text>
                 <input className="air__input"
                     type="number"
+                    inputMode='numeric'
                     name='Průtok'
                     value={flow}
                     onChange={(e) =>
